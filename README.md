@@ -31,6 +31,7 @@
 | `git tag NOMBRE_VERSION -m "Comentario del tag"`        | Etiquetar una versión del proyecto |
 | `git tag`                                               | Listar todos los tags del proyecto |
 | `git tag -a NOMBRE_TAG ID_COMMIT -m "Comentario"`       | Etiquetar un commit anterior con el id especificado |
+| `git tag -l`                                            | Listar todos los tags |
 | `git tag -d NOMBRE_TAG`                                 | Eliminar un tag |
 | `git push --tag`                                        | Subir los tags al repositorio remoto |
 | `git remote -v`                                         | Verificar con servidor remoto estamos conectados | 
